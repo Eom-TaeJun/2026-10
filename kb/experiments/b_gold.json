@@ -1,0 +1,98 @@
+{
+  "BD1": {
+    "ids": [
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16"
+    ],
+    "known_limit": 8800,
+    "missing_limit": [
+      "C12"
+    ],
+    "unknown_right": [],
+    "duplicates": []
+  },
+  "BD2": {
+    "ids": [
+      "C01",
+      "C07"
+    ],
+    "known_limit": 800,
+    "missing_limit": [],
+    "unknown_right": [],
+    "duplicates": []
+  },
+  "BE1": {
+    "ids": [
+      "C01",
+      "C02",
+      "C05",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C12",
+      "C13",
+      "C15",
+      "C16"
+    ],
+    "known_limit": 8600,
+    "missing_limit": [
+      "C12"
+    ],
+    "unknown_right": [],
+    "duplicates": [
+      "C05"
+    ]
+  },
+  "BE2": {
+    "ids": [
+      "C01",
+      "C07",
+      "C17",
+      "C23"
+    ],
+    "known_limit": 4800,
+    "missing_limit": [],
+    "unknown_right": [
+      "C22"
+    ],
+    "duplicates": []
+  },
+  "BE3": {
+    "ids": [
+      "C02",
+      "C05",
+      "C08",
+      "C18",
+      "C21",
+      "C24"
+    ],
+    "known_limit": 7800,
+    "missing_limit": [],
+    "unknown_right": [
+      "C22"
+    ],
+    "duplicates": [
+      "C05"
+    ]
+  },
+  "BE4": {
+    "ids": [
+      "C17",
+      "C20",
+      "C23"
+    ],
+    "known_limit": 6000,
+    "missing_limit": [],
+    "unknown_right": [
+      "C22"
+    ],
+    "duplicates": []
+  }
+}

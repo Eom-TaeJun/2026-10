@@ -1,0 +1,21 @@
+[
+  {
+    "id": "v1",
+    "start": "2026-01-01",
+    "end": "2026-07-01",
+    "documents": [
+      "application",
+      "identity_stub"
+    ]
+  },
+  {
+    "id": "v2",
+    "start": "2026-07-01",
+    "end": "2027-01-01",
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ]
+  }
+]

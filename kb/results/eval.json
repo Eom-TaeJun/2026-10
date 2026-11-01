@@ -1,0 +1,1229 @@
+{
+  "run_at_utc": "2026-11-01T09:13:01.111358+00:00",
+  "python": "3.12.14",
+  "split": "eval",
+  "seed": 20261101,
+  "code_sha256": {
+    "engine.py": "1bfba1516c183f8b385b3ab5f588bc448b6496381c3bfb69fc02e719e56d5454",
+    "run.py": "5147f0567b3f868ccf111608688f40d9ba1af62c4478e342e7edbb28333ebf9a",
+    "test_engine.py": "6b17fe6b2b92f5610ff78d9cc3dec3cbb9590135cb8d83da7b522a41d9fd3393"
+  },
+  "summary": {
+    "A_intake_sql": {
+      "total": 16,
+      "normal": 8,
+      "exceptions": 8,
+      "tp": 2,
+      "fp": 0,
+      "fn": 6,
+      "exact_reasons": 9,
+      "handoff_missing": 7,
+      "handoff_required": 9
+    },
+    "A_review_rules": {
+      "total": 16,
+      "normal": 8,
+      "exceptions": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "exact_reasons": 16,
+      "handoff_missing": 0,
+      "handoff_required": 9
+    },
+    "B_asset_sql": {
+      "events": 4,
+      "tp": 13,
+      "fp": 19,
+      "fn": 11,
+      "exact_ids": 0,
+      "exact_subtotal": 0,
+      "exact_exception_fields": 0
+    },
+    "B_dependency_python": {
+      "events": 4,
+      "tp": 24,
+      "fp": 0,
+      "fn": 0,
+      "exact_ids": 4,
+      "exact_subtotal": 4,
+      "exact_exception_fields": 4
+    },
+    "B_dependency_sql": {
+      "events": 4,
+      "tp": 24,
+      "fp": 0,
+      "fn": 0,
+      "exact_ids": 4,
+      "exact_subtotal": 4,
+      "exact_exception_fields": 4
+    },
+    "B_sql_python_parity": {
+      "matches": 4,
+      "total": 4
+    },
+    "B_reprocessing": {
+      "matches": 4,
+      "total": 4
+    }
+  },
+  "records": [
+    {
+      "experiment": "A",
+      "id": "AE01",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE01",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE02",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE02",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE03",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE03",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE04",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE04",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE05",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE05",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE06",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE06",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE07",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE07",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE08",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE08",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE09",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE09",
+        "status": "needs_review",
+        "flags": [
+          "missing_field"
+        ],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "missing_field",
+            "request": "필수 입력값을 확인하세요",
+            "evidence": {
+              "event_date": null,
+              "selected_rule": "v2",
+              "target": "synthetic_person",
+              "evidence_target": "synthetic_person",
+              "amount_claimed": 1000,
+              "amount_evidence": 1000
+            }
+          }
+        ]
+      },
+      "gold": [
+        "missing_field"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE10",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE10",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "unreadable"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE11",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE11",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "target_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE12",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE12",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "invalid_date"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE13",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE13",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "rule_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE14",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE14",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "amount_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE15",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE15",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "missing_documents"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE16",
+      "method": "intake_sql",
+      "output": {
+        "id": "AE16",
+        "status": "needs_review",
+        "flags": [
+          "missing_field"
+        ],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "missing_field",
+            "request": "필수 입력값을 확인하세요",
+            "evidence": {
+              "event_date": "2026-08-01",
+              "selected_rule": "v2",
+              "target": "synthetic_person",
+              "evidence_target": "synthetic_person",
+              "amount_claimed": 1000,
+              "amount_evidence": null
+            }
+          }
+        ]
+      },
+      "gold": [
+        "missing_documents",
+        "missing_field"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE01",
+      "method": "review_rules",
+      "output": {
+        "id": "AE01",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v1",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE02",
+      "method": "review_rules",
+      "output": {
+        "id": "AE02",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v1",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE03",
+      "method": "review_rules",
+      "output": {
+        "id": "AE03",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v1",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE04",
+      "method": "review_rules",
+      "output": {
+        "id": "AE04",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v1",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE05",
+      "method": "review_rules",
+      "output": {
+        "id": "AE05",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE06",
+      "method": "review_rules",
+      "output": {
+        "id": "AE06",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE07",
+      "method": "review_rules",
+      "output": {
+        "id": "AE07",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE08",
+      "method": "review_rules",
+      "output": {
+        "id": "AE08",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AE09",
+      "method": "review_rules",
+      "output": {
+        "id": "AE09",
+        "status": "needs_review",
+        "flags": [
+          "missing_field"
+        ],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "missing_field",
+            "request": "필수 입력값을 확인하세요",
+            "evidence": {
+              "event_date": null,
+              "selected_rule": "v2",
+              "target": "synthetic_person",
+              "evidence_target": "synthetic_person",
+              "amount_claimed": 1000,
+              "amount_evidence": 1000
+            }
+          }
+        ]
+      },
+      "gold": [
+        "missing_field"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE10",
+      "method": "review_rules",
+      "output": {
+        "id": "AE10",
+        "status": "needs_review",
+        "flags": [
+          "unreadable"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "unreadable",
+            "request": "원문을 다시 확보하세요",
+            "evidence": {
+              "readable": false
+            }
+          }
+        ]
+      },
+      "gold": [
+        "unreadable"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE11",
+      "method": "review_rules",
+      "output": {
+        "id": "AE11",
+        "status": "needs_review",
+        "flags": [
+          "target_mismatch"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "target_mismatch",
+            "request": "청구와 증빙의 대상을 확인하세요",
+            "evidence": {
+              "target": "synthetic_person",
+              "evidence_target": "other_synthetic_person"
+            }
+          }
+        ]
+      },
+      "gold": [
+        "target_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE12",
+      "method": "review_rules",
+      "output": {
+        "id": "AE12",
+        "status": "needs_review",
+        "flags": [
+          "invalid_date"
+        ],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "invalid_date",
+            "request": "사건일 형식을 확인하세요",
+            "evidence": {
+              "event_date": "2026-02-30"
+            }
+          }
+        ]
+      },
+      "gold": [
+        "invalid_date"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE13",
+      "method": "review_rules",
+      "output": {
+        "id": "AE13",
+        "status": "needs_review",
+        "flags": [
+          "rule_mismatch"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "rule_mismatch",
+            "request": "사건일 기준 합성 규칙을 확인하세요",
+            "evidence": {
+              "event_date": "2026-08-01",
+              "selected_rule": "v1"
+            }
+          }
+        ]
+      },
+      "gold": [
+        "rule_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE14",
+      "method": "review_rules",
+      "output": {
+        "id": "AE14",
+        "status": "needs_review",
+        "flags": [
+          "amount_mismatch"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "amount_mismatch",
+            "request": "청구액과 증빙액 차이를 확인하세요",
+            "evidence": {
+              "amount_claimed": 1000,
+              "amount_evidence": 900
+            }
+          }
+        ]
+      },
+      "gold": [
+        "amount_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE15",
+      "method": "review_rules",
+      "output": {
+        "id": "AE15",
+        "status": "needs_review",
+        "flags": [
+          "missing_documents"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "missing_documents",
+            "request": "필수 증빙을 보완하세요",
+            "evidence": {
+              "documents": [
+                "application"
+              ]
+            }
+          }
+        ]
+      },
+      "gold": [
+        "missing_documents"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AE16",
+      "method": "review_rules",
+      "output": {
+        "id": "AE16",
+        "status": "needs_review",
+        "flags": [
+          "missing_documents",
+          "missing_field"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "missing_documents",
+            "request": "필수 증빙을 보완하세요",
+            "evidence": {
+              "documents": []
+            }
+          },
+          {
+            "reason": "missing_field",
+            "request": "필수 입력값을 확인하세요",
+            "evidence": {
+              "event_date": "2026-08-01",
+              "selected_rule": "v2",
+              "target": "synthetic_person",
+              "evidence_target": "synthetic_person",
+              "amount_claimed": 1000,
+              "amount_evidence": null
+            }
+          }
+        ]
+      },
+      "gold": [
+        "missing_documents",
+        "missing_field"
+      ]
+    },
+    {
+      "experiment": "B",
+      "id": "BE1",
+      "method": "asset_sql",
+      "output": {
+        "ids": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08"
+        ],
+        "known_limit": 4100,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": [
+          "C05"
+        ],
+        "complete": true,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false,
+        "raw_rows": 9
+      },
+      "gold": {
+        "ids": [
+          "C01",
+          "C02",
+          "C05",
+          "C07",
+          "C08",
+          "C09",
+          "C10",
+          "C12",
+          "C13",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8600,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": [
+          "C05"
+        ]
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE2",
+      "method": "asset_sql",
+      "output": {
+        "ids": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08"
+        ],
+        "known_limit": 4100,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": [
+          "C05"
+        ],
+        "complete": true,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false,
+        "raw_rows": 9
+      },
+      "gold": {
+        "ids": [
+          "C01",
+          "C07",
+          "C17",
+          "C23"
+        ],
+        "known_limit": 4800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE3",
+      "method": "asset_sql",
+      "output": {
+        "ids": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08"
+        ],
+        "known_limit": 4100,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": [
+          "C05"
+        ],
+        "complete": true,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false,
+        "raw_rows": 9
+      },
+      "gold": {
+        "ids": [
+          "C02",
+          "C05",
+          "C08",
+          "C18",
+          "C21",
+          "C24"
+        ],
+        "known_limit": 7800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": [
+          "C05"
+        ]
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE4",
+      "method": "asset_sql",
+      "output": {
+        "ids": [
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21",
+          "C22",
+          "C23",
+          "C24"
+        ],
+        "known_limit": 16400,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": [],
+        "complete": true,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false,
+        "raw_rows": 8
+      },
+      "gold": {
+        "ids": [
+          "C17",
+          "C20",
+          "C23"
+        ],
+        "known_limit": 6000,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE1",
+      "method": "dependency_python",
+      "output": {
+        "ids": [
+          "C01",
+          "C02",
+          "C05",
+          "C07",
+          "C08",
+          "C09",
+          "C10",
+          "C12",
+          "C13",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8600,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": [
+          "C05"
+        ],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C01",
+          "C02",
+          "C05",
+          "C07",
+          "C08",
+          "C09",
+          "C10",
+          "C12",
+          "C13",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8600,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": [
+          "C05"
+        ]
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE2",
+      "method": "dependency_python",
+      "output": {
+        "ids": [
+          "C01",
+          "C07",
+          "C17",
+          "C23"
+        ],
+        "known_limit": 4800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": [],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C01",
+          "C07",
+          "C17",
+          "C23"
+        ],
+        "known_limit": 4800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE3",
+      "method": "dependency_python",
+      "output": {
+        "ids": [
+          "C02",
+          "C05",
+          "C08",
+          "C18",
+          "C21",
+          "C24"
+        ],
+        "known_limit": 7800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": [
+          "C05"
+        ],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C02",
+          "C05",
+          "C08",
+          "C18",
+          "C21",
+          "C24"
+        ],
+        "known_limit": 7800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": [
+          "C05"
+        ]
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE4",
+      "method": "dependency_python",
+      "output": {
+        "ids": [
+          "C17",
+          "C20",
+          "C23"
+        ],
+        "known_limit": 6000,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": [],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C17",
+          "C20",
+          "C23"
+        ],
+        "known_limit": 6000,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE1",
+      "method": "dependency_sql",
+      "output": {
+        "ids": [
+          "C01",
+          "C02",
+          "C05",
+          "C07",
+          "C08",
+          "C09",
+          "C10",
+          "C12",
+          "C13",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8600,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": [
+          "C05"
+        ],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C01",
+          "C02",
+          "C05",
+          "C07",
+          "C08",
+          "C09",
+          "C10",
+          "C12",
+          "C13",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8600,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": [
+          "C05"
+        ]
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE2",
+      "method": "dependency_sql",
+      "output": {
+        "ids": [
+          "C01",
+          "C07",
+          "C17",
+          "C23"
+        ],
+        "known_limit": 4800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": [],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C01",
+          "C07",
+          "C17",
+          "C23"
+        ],
+        "known_limit": 4800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE3",
+      "method": "dependency_sql",
+      "output": {
+        "ids": [
+          "C02",
+          "C05",
+          "C08",
+          "C18",
+          "C21",
+          "C24"
+        ],
+        "known_limit": 7800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": [
+          "C05"
+        ],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C02",
+          "C05",
+          "C08",
+          "C18",
+          "C21",
+          "C24"
+        ],
+        "known_limit": 7800,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": [
+          "C05"
+        ]
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BE4",
+      "method": "dependency_sql",
+      "output": {
+        "ids": [
+          "C17",
+          "C20",
+          "C23"
+        ],
+        "known_limit": 6000,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": [],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C17",
+          "C20",
+          "C23"
+        ],
+        "known_limit": 6000,
+        "missing_limit": [],
+        "unknown_right": [
+          "C22"
+        ],
+        "duplicates": []
+      }
+    }
+  ]
+}

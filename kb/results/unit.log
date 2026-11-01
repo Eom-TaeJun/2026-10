@@ -1,0 +1,13 @@
+test_end_excluded (test_engine.BoundaryTests.test_end_excluded) ... ok
+test_missing_is_not_zero (test_engine.BoundaryTests.test_missing_is_not_zero) ... ok
+test_no_applicable_rule (test_engine.BoundaryTests.test_no_applicable_rule) ... ok
+test_no_payment_authorization (test_engine.BoundaryTests.test_no_payment_authorization) ... ok
+test_repeated_dependency_does_not_multiply (test_engine.BoundaryTests.test_repeated_dependency_does_not_multiply) ... ok
+test_rule_boundary (test_engine.BoundaryTests.test_rule_boundary) ... ok
+test_same_asset_different_contracts_preserved (test_engine.BoundaryTests.test_same_asset_different_contracts_preserved) ... ok
+test_zero_is_known (test_engine.BoundaryTests.test_zero_is_known) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.019s
+
+OK

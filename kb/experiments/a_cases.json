@@ -1,0 +1,373 @@
+[
+  {
+    "id": "AD1",
+    "event_date": "2026-03-01",
+    "selected_rule": "v1",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "AD2",
+    "event_date": "2026-03-01",
+    "selected_rule": "v1",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "AD3",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "AD4",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "AD5",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 900,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "AD6",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": false,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "AD7",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "other_synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "AD8",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "AE01",
+    "event_date": "2026-06-30",
+    "selected_rule": "v1",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 100,
+    "amount_evidence": 100,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE02",
+    "event_date": "2026-06-30",
+    "selected_rule": "v1",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 200,
+    "amount_evidence": 200,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE03",
+    "event_date": "2026-06-30",
+    "selected_rule": "v1",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 300,
+    "amount_evidence": 300,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE04",
+    "event_date": "2026-06-30",
+    "selected_rule": "v1",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 400,
+    "amount_evidence": 400,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE05",
+    "event_date": "2026-07-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 500,
+    "amount_evidence": 500,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE06",
+    "event_date": "2026-07-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 600,
+    "amount_evidence": 600,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE07",
+    "event_date": "2026-07-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 700,
+    "amount_evidence": 700,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE08",
+    "event_date": "2026-07-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 800,
+    "amount_evidence": 800,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE09",
+    "event_date": null,
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE10",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": false,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE11",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "other_synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE12",
+    "event_date": "2026-02-30",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE13",
+    "event_date": "2026-08-01",
+    "selected_rule": "v1",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE14",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 900,
+    "readable": true,
+    "documents": [
+      "application",
+      "identity_stub",
+      "event_proof"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE15",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": 1000,
+    "readable": true,
+    "documents": [
+      "application"
+    ],
+    "split": "eval"
+  },
+  {
+    "id": "AE16",
+    "event_date": "2026-08-01",
+    "selected_rule": "v2",
+    "target": "synthetic_person",
+    "evidence_target": "synthetic_person",
+    "amount_claimed": 1000,
+    "amount_evidence": null,
+    "readable": true,
+    "documents": [],
+    "split": "eval"
+  }
+]

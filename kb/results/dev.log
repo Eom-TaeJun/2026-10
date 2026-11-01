@@ -1,0 +1,62 @@
+{
+  "split": "dev",
+  "summary": {
+    "A_intake_sql": {
+      "total": 8,
+      "normal": 4,
+      "exceptions": 4,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "exact_reasons": 4,
+      "handoff_missing": 4,
+      "handoff_required": 4
+    },
+    "A_review_rules": {
+      "total": 8,
+      "normal": 4,
+      "exceptions": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "exact_reasons": 8,
+      "handoff_missing": 0,
+      "handoff_required": 4
+    },
+    "B_asset_sql": {
+      "events": 2,
+      "tp": 10,
+      "fp": 6,
+      "fn": 0,
+      "exact_ids": 1,
+      "exact_subtotal": 1,
+      "exact_exception_fields": 1
+    },
+    "B_dependency_python": {
+      "events": 2,
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "exact_ids": 2,
+      "exact_subtotal": 2,
+      "exact_exception_fields": 2
+    },
+    "B_dependency_sql": {
+      "events": 2,
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "exact_ids": 2,
+      "exact_subtotal": 2,
+      "exact_exception_fields": 2
+    },
+    "B_sql_python_parity": {
+      "matches": 2,
+      "total": 2
+    },
+    "B_reprocessing": {
+      "matches": 2,
+      "total": 2
+    }
+  }
+}

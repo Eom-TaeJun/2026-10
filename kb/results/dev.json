@@ -1,0 +1,599 @@
+{
+  "run_at_utc": "2026-11-01T09:12:54.635442+00:00",
+  "python": "3.12.14",
+  "split": "dev",
+  "seed": 20261101,
+  "code_sha256": {
+    "engine.py": "1bfba1516c183f8b385b3ab5f588bc448b6496381c3bfb69fc02e719e56d5454",
+    "run.py": "5147f0567b3f868ccf111608688f40d9ba1af62c4478e342e7edbb28333ebf9a",
+    "test_engine.py": "6b17fe6b2b92f5610ff78d9cc3dec3cbb9590135cb8d83da7b522a41d9fd3393"
+  },
+  "summary": {
+    "A_intake_sql": {
+      "total": 8,
+      "normal": 4,
+      "exceptions": 4,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "exact_reasons": 4,
+      "handoff_missing": 4,
+      "handoff_required": 4
+    },
+    "A_review_rules": {
+      "total": 8,
+      "normal": 4,
+      "exceptions": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "exact_reasons": 8,
+      "handoff_missing": 0,
+      "handoff_required": 4
+    },
+    "B_asset_sql": {
+      "events": 2,
+      "tp": 10,
+      "fp": 6,
+      "fn": 0,
+      "exact_ids": 1,
+      "exact_subtotal": 1,
+      "exact_exception_fields": 1
+    },
+    "B_dependency_python": {
+      "events": 2,
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "exact_ids": 2,
+      "exact_subtotal": 2,
+      "exact_exception_fields": 2
+    },
+    "B_dependency_sql": {
+      "events": 2,
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "exact_ids": 2,
+      "exact_subtotal": 2,
+      "exact_exception_fields": 2
+    },
+    "B_sql_python_parity": {
+      "matches": 2,
+      "total": 2
+    },
+    "B_reprocessing": {
+      "matches": 2,
+      "total": 2
+    }
+  },
+  "records": [
+    {
+      "experiment": "A",
+      "id": "AD1",
+      "method": "intake_sql",
+      "output": {
+        "id": "AD1",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AD2",
+      "method": "intake_sql",
+      "output": {
+        "id": "AD2",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AD3",
+      "method": "intake_sql",
+      "output": {
+        "id": "AD3",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AD4",
+      "method": "intake_sql",
+      "output": {
+        "id": "AD4",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AD5",
+      "method": "intake_sql",
+      "output": {
+        "id": "AD5",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "amount_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AD6",
+      "method": "intake_sql",
+      "output": {
+        "id": "AD6",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "unreadable"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AD7",
+      "method": "intake_sql",
+      "output": {
+        "id": "AD7",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "target_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AD8",
+      "method": "intake_sql",
+      "output": {
+        "id": "AD8",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": null,
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": [
+        "missing_documents"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AD1",
+      "method": "review_rules",
+      "output": {
+        "id": "AD1",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v1",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AD2",
+      "method": "review_rules",
+      "output": {
+        "id": "AD2",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v1",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AD3",
+      "method": "review_rules",
+      "output": {
+        "id": "AD3",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AD4",
+      "method": "review_rules",
+      "output": {
+        "id": "AD4",
+        "status": "administratively_consistent",
+        "flags": [],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": []
+      },
+      "gold": []
+    },
+    {
+      "experiment": "A",
+      "id": "AD5",
+      "method": "review_rules",
+      "output": {
+        "id": "AD5",
+        "status": "needs_review",
+        "flags": [
+          "amount_mismatch"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "amount_mismatch",
+            "request": "청구액과 증빙액 차이를 확인하세요",
+            "evidence": {
+              "amount_claimed": 1000,
+              "amount_evidence": 900
+            }
+          }
+        ]
+      },
+      "gold": [
+        "amount_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AD6",
+      "method": "review_rules",
+      "output": {
+        "id": "AD6",
+        "status": "needs_review",
+        "flags": [
+          "unreadable"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "unreadable",
+            "request": "원문을 다시 확보하세요",
+            "evidence": {
+              "readable": false
+            }
+          }
+        ]
+      },
+      "gold": [
+        "unreadable"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AD7",
+      "method": "review_rules",
+      "output": {
+        "id": "AD7",
+        "status": "needs_review",
+        "flags": [
+          "target_mismatch"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "target_mismatch",
+            "request": "청구와 증빙의 대상을 확인하세요",
+            "evidence": {
+              "target": "synthetic_person",
+              "evidence_target": "other_synthetic_person"
+            }
+          }
+        ]
+      },
+      "gold": [
+        "target_mismatch"
+      ]
+    },
+    {
+      "experiment": "A",
+      "id": "AD8",
+      "method": "review_rules",
+      "output": {
+        "id": "AD8",
+        "status": "needs_review",
+        "flags": [
+          "missing_documents"
+        ],
+        "applied_synthetic_rule": "v2",
+        "review_required": true,
+        "payment_authorized": false,
+        "handoff": [
+          {
+            "reason": "missing_documents",
+            "request": "필수 증빙을 보완하세요",
+            "evidence": {
+              "documents": [
+                "application",
+                "identity_stub"
+              ]
+            }
+          }
+        ]
+      },
+      "gold": [
+        "missing_documents"
+      ]
+    },
+    {
+      "experiment": "B",
+      "id": "BD1",
+      "method": "asset_sql",
+      "output": {
+        "ids": [
+          "C09",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8800,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": [],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false,
+        "raw_rows": 8
+      },
+      "gold": {
+        "ids": [
+          "C09",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8800,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BD2",
+      "method": "asset_sql",
+      "output": {
+        "ids": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08"
+        ],
+        "known_limit": 4100,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": [
+          "C05"
+        ],
+        "complete": true,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false,
+        "raw_rows": 9
+      },
+      "gold": {
+        "ids": [
+          "C01",
+          "C07"
+        ],
+        "known_limit": 800,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BD1",
+      "method": "dependency_python",
+      "output": {
+        "ids": [
+          "C09",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8800,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": [],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C09",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8800,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BD2",
+      "method": "dependency_python",
+      "output": {
+        "ids": [
+          "C01",
+          "C07"
+        ],
+        "known_limit": 800,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": [],
+        "complete": true,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C01",
+          "C07"
+        ],
+        "known_limit": 800,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BD1",
+      "method": "dependency_sql",
+      "output": {
+        "ids": [
+          "C09",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8800,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": [],
+        "complete": false,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C09",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16"
+        ],
+        "known_limit": 8800,
+        "missing_limit": [
+          "C12"
+        ],
+        "unknown_right": [],
+        "duplicates": []
+      }
+    },
+    {
+      "experiment": "B",
+      "id": "BD2",
+      "method": "dependency_sql",
+      "output": {
+        "ids": [
+          "C01",
+          "C07"
+        ],
+        "known_limit": 800,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": [],
+        "complete": true,
+        "unit": "synthetic_limit_units",
+        "payment_authorized": false
+      },
+      "gold": {
+        "ids": [
+          "C01",
+          "C07"
+        ],
+        "known_limit": 800,
+        "missing_limit": [],
+        "unknown_right": [],
+        "duplicates": []
+      }
+    }
+  ]
+}

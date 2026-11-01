@@ -1,0 +1,12 @@
+{
+  "frozen_at_utc": "2026-11-01T09:12:06.478571+00:00",
+  "seed": 20261101,
+  "sha256": {
+    "claims_and_eval_plan.md": "0da9749da6b2f80c845953c8f2ac65a24ccd891e42d9bbfd16d8de30336144d2",
+    "experiments/a_cases.json": "1f8c89b9cb81ab2d196e4fbb4eb12e7c97c85a2e8adfccf8cfb54c6f928c4035",
+    "experiments/a_gold.json": "94d19a95f00cdde9e85540be697e6e89a1902d9d1bf5b3ad25356fd0f5b21d39",
+    "experiments/b_data.json": "d6a8721d50a1a0bc3fbca97bcb11d87df37106cbaf5a21fe64c1f6d01a044738",
+    "experiments/b_gold.json": "986514e5974957ef95907cddf1cbdbef9bd5ccf9fab35cfa70cccbf1b1235096",
+    "experiments/rules.json": "0b13aae1fab829e3b3a8a245ebec6f2ca693c36178fb4fa7c0e0df4db2097c75"
+  }
+}

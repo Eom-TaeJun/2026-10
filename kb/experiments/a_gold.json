@@ -1,0 +1,51 @@
+{
+  "AD1": [],
+  "AD2": [],
+  "AD3": [],
+  "AD4": [],
+  "AD5": [
+    "amount_mismatch"
+  ],
+  "AD6": [
+    "unreadable"
+  ],
+  "AD7": [
+    "target_mismatch"
+  ],
+  "AD8": [
+    "missing_documents"
+  ],
+  "AE01": [],
+  "AE02": [],
+  "AE03": [],
+  "AE04": [],
+  "AE05": [],
+  "AE06": [],
+  "AE07": [],
+  "AE08": [],
+  "AE09": [
+    "missing_field"
+  ],
+  "AE10": [
+    "unreadable"
+  ],
+  "AE11": [
+    "target_mismatch"
+  ],
+  "AE12": [
+    "invalid_date"
+  ],
+  "AE13": [
+    "rule_mismatch"
+  ],
+  "AE14": [
+    "amount_mismatch"
+  ],
+  "AE15": [
+    "missing_documents"
+  ],
+  "AE16": [
+    "missing_documents",
+    "missing_field"
+  ]
+}

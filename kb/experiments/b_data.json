@@ -1,0 +1,313 @@
+{
+  "contracts": [
+    {
+      "id": "C01",
+      "asset": "DC1",
+      "right": "service",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 100
+    },
+    {
+      "id": "C02",
+      "asset": "DC1",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 200
+    },
+    {
+      "id": "C03",
+      "asset": "DC1",
+      "right": "revenue",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 300
+    },
+    {
+      "id": "C04",
+      "asset": "DC1",
+      "right": "service",
+      "start": "2026-01-01",
+      "end": "2026-06-01",
+      "limit": 400
+    },
+    {
+      "id": "C05",
+      "asset": "DC1",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 500
+    },
+    {
+      "id": "C06",
+      "asset": "DC1",
+      "right": "revenue",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 600
+    },
+    {
+      "id": "C07",
+      "asset": "DC1",
+      "right": "service",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 700
+    },
+    {
+      "id": "C08",
+      "asset": "DC1",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 800
+    },
+    {
+      "id": "C09",
+      "asset": "DC2",
+      "right": "service",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 900
+    },
+    {
+      "id": "C10",
+      "asset": "DC2",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 1000
+    },
+    {
+      "id": "C11",
+      "asset": "DC2",
+      "right": "revenue",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 1100
+    },
+    {
+      "id": "C12",
+      "asset": "DC2",
+      "right": "service",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": null
+    },
+    {
+      "id": "C13",
+      "asset": "DC2",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 1300
+    },
+    {
+      "id": "C14",
+      "asset": "DC2",
+      "right": "revenue",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 1400
+    },
+    {
+      "id": "C15",
+      "asset": "DC2",
+      "right": "service",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 1500
+    },
+    {
+      "id": "C16",
+      "asset": "DC2",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 1600
+    },
+    {
+      "id": "C17",
+      "asset": "DC3",
+      "right": "service",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 1700
+    },
+    {
+      "id": "C18",
+      "asset": "DC3",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 1800
+    },
+    {
+      "id": "C19",
+      "asset": "DC3",
+      "right": "revenue",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 1900
+    },
+    {
+      "id": "C20",
+      "asset": "DC3",
+      "right": "service",
+      "start": "2027-01-01",
+      "end": "2028-01-01",
+      "limit": 2000
+    },
+    {
+      "id": "C21",
+      "asset": "DC3",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 2100
+    },
+    {
+      "id": "C22",
+      "asset": "DC3",
+      "right": "unknown",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 2200
+    },
+    {
+      "id": "C23",
+      "asset": "DC3",
+      "right": "service",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 2300
+    },
+    {
+      "id": "C24",
+      "asset": "DC3",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 2400
+    },
+    {
+      "id": "C05",
+      "asset": "DC1",
+      "right": "capacity",
+      "start": "2026-01-01",
+      "end": "2028-01-01",
+      "limit": 500
+    }
+  ],
+  "dependencies": [
+    {
+      "asset": "DC1",
+      "dependency": "gridA"
+    },
+    {
+      "asset": "DC1",
+      "dependency": "coolingX"
+    },
+    {
+      "asset": "DC1",
+      "dependency": "cloudP"
+    },
+    {
+      "asset": "DC2",
+      "dependency": "gridA"
+    },
+    {
+      "asset": "DC2",
+      "dependency": "coolingY"
+    },
+    {
+      "asset": "DC2",
+      "dependency": "cloudQ"
+    },
+    {
+      "asset": "DC3",
+      "dependency": "gridB"
+    },
+    {
+      "asset": "DC3",
+      "dependency": "coolingX"
+    },
+    {
+      "asset": "DC3",
+      "dependency": "cloudP"
+    }
+  ],
+  "events": [
+    {
+      "id": "BD1",
+      "split": "dev",
+      "kind": "asset",
+      "target": "DC2",
+      "asset_hint": "DC2",
+      "at": "2026-11-01",
+      "rights": [
+        "service",
+        "capacity",
+        "revenue"
+      ]
+    },
+    {
+      "id": "BD2",
+      "split": "dev",
+      "kind": "asset",
+      "target": "DC1",
+      "asset_hint": "DC1",
+      "at": "2026-06-01",
+      "rights": [
+        "service"
+      ]
+    },
+    {
+      "id": "BE1",
+      "split": "eval",
+      "kind": "dependency",
+      "target": "gridA",
+      "asset_hint": "DC1",
+      "at": "2026-11-01",
+      "rights": [
+        "service",
+        "capacity"
+      ]
+    },
+    {
+      "id": "BE2",
+      "split": "eval",
+      "kind": "dependency",
+      "target": "coolingX",
+      "asset_hint": "DC1",
+      "at": "2026-11-01",
+      "rights": [
+        "service"
+      ]
+    },
+    {
+      "id": "BE3",
+      "split": "eval",
+      "kind": "dependency",
+      "target": "cloudP",
+      "asset_hint": "DC1",
+      "at": "2026-11-01",
+      "rights": [
+        "capacity"
+      ]
+    },
+    {
+      "id": "BE4",
+      "split": "eval",
+      "kind": "dependency",
+      "target": "gridB",
+      "asset_hint": "DC3",
+      "at": "2027-01-01",
+      "rights": [
+        "service"
+      ]
+    }
+  ]
+}

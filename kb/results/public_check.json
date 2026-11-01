@@ -1,0 +1,7 @@
+{
+  "files_checked": 29,
+  "freeze_checks": "pass",
+  "problems": [],
+  "scope": "kb/ only; heuristic marker/link checks plus AI content inspection; not a complete secret/PII detector",
+  "evaluation_rerun": false
+}
