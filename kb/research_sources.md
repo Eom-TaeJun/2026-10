@@ -111,3 +111,13 @@
 <a id="ref16"></a>
 
 16. KB손해보험 제공, [한국무역보험공사와 해외 진출 우리 기업 지원 위한 업무협약](https://www.newswire.co.kr/newsRead.php?no=1011491), 2025년 5월 20일. 확인 범위는 중국법인의 매출채권 미회수 위험 보험과 한국무역보험공사의 재보험 지원에 관한 발표 본문이다. 실제 규모, 개별 조건과 회수시점, 온체인 도입은 미확인이다.
+
+## AI 에이전트 접점 보강의 근거와 제안 범위
+
+2026년 11월 1일 공동 조사에서 확인한 Chubb Studio 공식 자료는 파트너의 보험 업무 연결을 뒷받침한다. integration.html은 보험 lifecycle API, documentation.html은 상품과 플랜, 담보와 약관문서 조회 명세, Blink Cyber는 견적 생성·조회·수정과 계약·청구 API를 제공한다. 보고서에서는 이 범위의 API 비교사례로 사용한다.
+
+- https://studio.chubb.com/connect/integration.html
+- https://studio.chubb.com/connect/documentation.html
+- https://studio.chubb.com/connect/products/na/blinkCyber
+
+AI 에이전트의 유통 교섭력 변화, KB의 상품 데이터베이스와 공식 서비스 카탈로그, GenAI 기반 약관 변경 감지와 승인·가상 고객 시험, 외부 에이전트 API 연결은 본 연구의 업무 설계 제안이다. 기존 KB GenAI 발표와 그룹 정보이용 기준을 활용하며 외부 에이전트 보험시장 구축 실적으로 해석하지 않는다. 추가된 평가지표는 측정 설계이며 이번 작업에서 신규 성능 평가나 고객 효과 측정을 수행하지 않았다.
