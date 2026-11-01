@@ -19,9 +19,19 @@
 
 - [GovInfo PL 119-27](https://www.govinfo.gov/app/details/PLAW-119publ27): GENIUS Act의 2025-07-18 제정 확인.
 - [OCC Bulletin 2026-50](https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html): 2026-10-21 최종규칙, 안내된 법/규칙 시행일 2027-01-18. 2026-11-01 기준 제정·최종화와 시행은 다른 상태다. BSA/AML·제재 관련 별도 규칙 절차까지 완료됐다고 주장하지 않는다.
-- [미 하원 표결 2025-199](https://clerk.house.gov/Votes/2025199?Title=clarity): CLARITY(HR3633) 2025-07-17 하원 가결 294–134 확인. [Congress 법안 페이지](https://www.congress.gov/bill/119th-congress/house-bill/3633)는 이번 접근 제한으로 후속 최신 상태를 확인하지 못했다. 법률 제정 또는 현재 특정 단계라고 단정하지 않는다.
+- [미 하원 표결 2025-199](https://clerk.house.gov/Votes/2025199?Title=clarity): CLARITY(HR3633) 2025-07-17 하원 가결 294–134 확인. [Congress 법안 페이지](https://www.congress.gov/bill/119th-congress/house-bill/3633)는 최초 접근 제한으로 최신 전체 진행상태를 확인하지 못했다. 추가로 [상원 공식 표결 119-2-234](https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm)의 표결 질문·일자·결과를 직접 확인했다: 2026-09-15 HR3633 심의 개시 동의에 대한 토론종결(cloture) 49–50 부결. 이는 본안 최종부결·법안 폐기·제정 확인이 아니며 이후 전체 절차의 완료를 뜻하지 않는다.
 - 미국 제도는 금융환경 연구 배경이며 한국 손보의 영업·투자·지급 허용 근거가 아니다. 국내 적용법과 실제 계약은 별도 전문 검토가 필요하며 이 패키지는 법률 판단을 수행하지 않는다.
 
 ## 자료 접근 제한
 
 사용자 제공 Library 두 연구 문서는 공식 materialization 준비 호출 후 첫 파일의 공식 helper 다운로드가 exit 1, `library file transfer failed: download failed`로 끝났다. 이번 오류에서 HTTP 상태는 제공되지 않았으므로 과거 401과 같은 원인이라고 확정하지 않는다. 로컬 읽기 성공이나 내용 반영을 주장하지 않는다. 같은 경로의 두 번째 파일은 시도하지 않았다. 다른 전송 경로나 실행기로 우회하지 않았고 업로드도 하지 않았다. 공개 근거 및 전달된 요약으로 독립 작성했으며 비공개 원문·서명 URL·자격정보는 이 저장소에 포함하지 않는다.
+
+## BlackRock 상품 구조 — 2026-11-01 추가 직접 확인
+
+| 출처와 읽은 범위 | 확인 사실 | 구분해야 할 조건 |
+|---|---|---|
+| [Securitize BUIDL 출시 공지](https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx), 출시일·상품·면제발행·공시 문단 | 2024-03-20 출시한 토큰화 private fund share. ETF가 아니며 거래소 상장을 하지 않는다고 명시 | 승인된 투자자 사이 양도와 펀드에 대한 환매청구는 서로 다른 경로 |
+| [BUIDL 상품 안내](https://securitize.io/blackrock/buidl), 양도·USD liquidity·환매 마감 각주 | 온체인 24/7 양도 설명과 영업일 USD 환매·접수 마감 조건을 별도로 안내 | 24/7 양도는 24/7 현금화 보장이 아니다. 과거 출시 공지와 현재 페이지의 분배 설명을 같은 시점 조건으로 합치지 않았다. 계약서·클래스별 최종 조건 전체는 미검토 |
+| [BlackRock 2026-08-03 공지](https://www.blackrock.com/cash/en-us/press-release-t3), BSTBL/BRSRV 출시·사업자·준비자산 의도 문단 | BSTBL은 기존 Select Treasury Based Liquidity Fund의 OnChain Shares로 BNY가 transfer agent/tokenization provider. BRSRV는 새 Daily Reinvestment Stablecoin Reserve Vehicle로 Securitize가 해당 역할 | 안정코인 준비자산 활용을 지향하는 상품 설명이지 모든 발행자·보유자·시점에 대한 법적 적격성 보장이 아니다. 한국 보험사의 편입 허용을 뜻하지 않는다 |
+
+위 세 항목은 부모가 제공한 조사 요약에 더해 이번 보완에서 공식 본문을 직접 확인했다. 같은 단기 국채 노출이라도 펀드 지분의 법적 청구권·양도 제한·환매·수익분배 조건을 상품별로 확인해야 한다는 연구 해석으로 연결했다. 보험사의 실제 보유·도입이나 실거래 검증을 뜻하지 않는다.
