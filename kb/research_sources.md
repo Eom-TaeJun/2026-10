@@ -35,3 +35,9 @@
 | [BlackRock 2026-08-03 공지](https://www.blackrock.com/cash/en-us/press-release-t3), BSTBL/BRSRV 출시·사업자·준비자산 의도 문단 | BSTBL은 기존 Select Treasury Based Liquidity Fund의 OnChain Shares로 BNY가 transfer agent/tokenization provider. BRSRV는 새 Daily Reinvestment Stablecoin Reserve Vehicle로 Securitize가 해당 역할 | 안정코인 준비자산 활용을 지향하는 상품 설명이지 모든 발행자·보유자·시점에 대한 법적 적격성 보장이 아니다. 한국 보험사의 편입 허용을 뜻하지 않는다 |
 
 위 세 항목은 부모가 제공한 조사 요약에 더해 이번 보완에서 공식 본문을 직접 확인했다. 같은 단기 국채 노출이라도 펀드 지분의 법적 청구권·양도 제한·환매·수익분배 조건을 상품별로 확인해야 한다는 연구 해석으로 연결했다. 보험사의 실제 보유·도입이나 실거래 검증을 뜻하지 않는다.
+
+## 금융기관 연구보고서 추가 자료
+
+보고서의 새 국내업권·그룹·신규위험 근거는 [보고서 참고자료 1, 2, 10~15번](insurance_financial_environment_report.md)에 문서일, URL과 확인 범위를 연결했다. 금융위원회 2026-01-20 계리감독 방안은 이 실행기에서 본문을 직접 확인했다. 업권 실적 요약, KB GenAI 발표와 GenAI 2.0 제안요청, 그룹 정보이용 기준, Zurich·Chubb·Munich Re 신규위험 사례는 연구 과정의 공식 원문 확인 결과를 전달받아 반영했다. 이를 모두 이 실행기의 직접 재열람으로 표시하지 않는다.
+
+업권 H1 자료는 생보와 손보 전체이며 손보 세부표는 미검증이다. KB 1~9월과 기간을 맞춘 직접 비교나 시장점유율 추정은 하지 않았다. 신규 위험은 데이터센터 물적 손해, 비물적 기술중단, AI 성능 관련 손실을 구분하고 계약별 인수조건과 국내 적용의 미확인을 유지했다.

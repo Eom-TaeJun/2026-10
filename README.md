@@ -46,4 +46,6 @@ flowchart TD
 
 [환경 → 문제 → 검증 → 기여 패키지](kb/README.md)와 [4쪽 발표본](kb/portfolio_4pages.md): 현재 행정 검토와 미래 시설 의존성의 두 합성 실험, 사전 평가계획, SQL 비교, 원결과 및 한계를 함께 남겼다. 실제 지급 판단·운영효과를 주장하지 않는다.
 
-[제출용 단일 HTML](kb/portfolio.html) · [자기소개서 주장과 사용 범위](kb/application_claims.md)
+[제출용 금융기관 연구보고서 HTML](kb/portfolio.html) · [자기소개서 주장과 사용 범위](kb/application_claims.md)
+
+[연구보고서 본문 Markdown](kb/insurance_financial_environment_report.md) — 요약과 5장, 참고자료 및 합성실험 방법론 부록.
