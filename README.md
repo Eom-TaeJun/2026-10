@@ -49,3 +49,5 @@ flowchart TD
 [제출용 금융기관 연구보고서 HTML](kb/portfolio.html) · [자기소개서 주장과 사용 범위](kb/application_claims.md)
 
 [연구보고서 본문 Markdown](kb/insurance_financial_environment_report.md) — 요약과 5장, 참고자료 및 합성실험 방법론 부록.
+
+[온체인 RWA 보장·위험관리 업무 재설계](kb/business_redesign_proposal.md) — 유한한 인수자본과 유동성 아래 권리, 보장상태와 공통위험을 연결하는 조건부 제안.
