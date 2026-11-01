@@ -45,3 +45,5 @@ flowchart TD
 ## KB손해보험 AI·데이터 지원용 증거
 
 [환경 → 문제 → 검증 → 기여 패키지](kb/README.md)와 [4쪽 발표본](kb/portfolio_4pages.md): 현재 행정 검토와 미래 시설 의존성의 두 합성 실험, 사전 평가계획, SQL 비교, 원결과 및 한계를 함께 남겼다. 실제 지급 판단·운영효과를 주장하지 않는다.
+
+[제출용 단일 HTML](kb/portfolio.html) · [자기소개서 주장과 사용 범위](kb/application_claims.md)

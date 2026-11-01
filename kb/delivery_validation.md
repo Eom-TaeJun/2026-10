@@ -1,0 +1,13 @@
+# 제출용 HTML 검증 기록 — 2026-11-01
+
+대상: `portfolio.html`, `application_claims.md`, README 연결과 상세 증거 문서의 링크.
+
+- 정적 HTML 검사 통과: 태그 균형, 중복 ID, 목차 앵커, GitHub 링크에 대응하는 로컬 파일/폴더 존재. 총 19개 링크. 외부 렌더링 자산 없음.
+- 외부 JavaScript·폰트·스타일시트 불필요. 한국어 lang, viewport, 모바일 단일열 CSS, A4 인쇄 CSS를 포함한다. 인터넷 없이 본문을 읽도록 구성했으며 근거 링크는 인터넷 연결이 필요하다.
+- 실제 Chromium/Playwright 렌더링을 시도했으나 `file:///workspace/2026-10/kb/portfolio.html` 이동이 `net::ERR_BLOCKED_BY_ADMINISTRATOR`로 차단됐다. 접근 정책을 바꾸거나 다른 경로로 우회하지 않았다. 따라서 실제 데스크톱/모바일 overflow, 스크린샷, 인쇄 PDF의 시각적 가독성은 미검증이다. CSS 존재와 태그 검사가 시각 검증을 대신하지 않는다.
+- 단위시험 8/8 재통과. 패키지의 고정 SHA·주요 민감정보 패턴·Markdown 링크 검사 통과. 이 검사는 완전한 개인정보 탐지기가 아니다. 새 HTML과 문장을 AI가 읽어 실제 고객·학력·연락처·비공개 원문이 포함되지 않았는지 검토했다.
+- 원실험 입력·정답·평가계획·원결과·코드를 변경하거나 평가를 재실행하지 않았다. 단위시험/검증의 임시 출력은 `/tmp`에 두어 기존 결과를 덮어쓰지 않았다.
+- 발표 숫자 가까이에 검사 기능 차이, 단일 작성자의 정답을 아는 평가, 정상 8건의 두 패턴 금액 변형, 실제 정확도/업무효과 미측정을 표시했다. 이전 정상 질문 4/8 불필요 보류도 표시했다.
+- Library의 기존 공식 helper 인증/다운로드 제한에 대한 새로운 복구 근거가 없어 업로드를 반복하지 않았다. 이번 공개 GitHub 승인은 Library 제한 우회를 포함하지 않는다.
+
+검증 명령: `python -m unittest discover -s kb/experiments -v`, `python kb/validate_package.py`, 임시 HTMLParser 태그/링크 검사, `git diff --check`. 실제 렌더링 시도는 설치된 Chromium과 Playwright를 사용했다. 신규 패키지 설치·호스팅/계정/권한 설정 변경 없음.
