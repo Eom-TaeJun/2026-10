@@ -41,3 +41,73 @@
 보고서의 새 국내업권·그룹·신규위험 근거는 [보고서 참고자료 1, 2, 10~15번](insurance_financial_environment_report.md)에 문서일, URL과 확인 범위를 연결했다. 확인 범위는 금융위원회 2026-01-20 계리감독 방안, 업권 실적의 공식 요약, KB GenAI 발표와 GenAI 2.0 제안요청, 그룹 정보이용 기준의 관련 조항, Zurich·Chubb·Munich Re의 공식 상품 소개와 명시된 표본약관이다. 자료별 첨부 전문과 개별 계약, 후속 시행의 미확인은 보고서 참고자료에 남겼다.
 
 업권 H1 자료는 생보와 손보 전체이며 손보 세부표는 미검증이다. KB 1~9월과 기간을 맞춘 직접 비교나 시장점유율 추정은 하지 않았다. 신규 위험은 데이터센터 물적 손해, 비물적 기술중단, AI 성능 관련 손실을 구분하고 계약별 인수조건과 국내 적용의 미확인을 유지했다.
+
+## 제출본문 간결화 전 자료별 검증 기록
+
+아래는 2026-11-01 편집 전 보고서의 자료별 확인 범위와 미확인 사항을 보존한 기록이다. 제출본문에서는 서지정보만 제시한다.
+
+자료 확인 기준일은 2026년 11월 1일이다. 기업 발표는 해당 기관의 제품과 계획에 관한 근거로 사용했으며 독립적으로 측정한 효과와 구분했다. 확인 범위는 공식 발표 본문과 관련 조항으로 한정하며 첨부 전문, 개별 계약과 후속 절차의 미확인은 자료별로 명시했다.
+
+<a id="ref1"></a>
+
+1. 금융감독원, 2026년 상반기 보험회사 경영실적 잠정, 2026년 8월 27일. [KDI 경제교육·정보센터 수록](https://eiec.kdi.re.kr/policy/materialView.do?num=285867). 확인 범위는 공식 실적 요약이다. 보험회사 전체 수치이며 첨부 손보 세부표는 미검증이다. 황인창, [2026년 보험산업 전망과 과제](https://www.kfpa.or.kr/webzine/202601/insurance1.html), 한국화재보험협회 수록. 전망을 실적으로 사용하지 않았다.
+
+<a id="ref2"></a>
+
+2. 금융위원회, [보험업권 계리감독 선진화 방안](https://www.fsc.go.kr/po010103/86099), 2026년 1월 20일. 이번 원고 작성에서 본문의 기본원칙, 가정 문서화, 시행일정 부분을 직접 확인했다. 발표된 일정과 별도로 모든 후속 규정의 실제 시행을 전수 확인한 것은 아니다.
+
+<a id="ref3"></a>
+
+3. KB금융, [2026년 3분기 실적발표](https://www.kbfg.com/data/ir_presentation/2026_3QPT_ENG.pdf), PDF 26쪽, 인쇄 19쪽. 앞선 조사에서 보험손익과 CSM, 별도 기준을 직접 확인했다. 1~9월 누적 잠정 수치이며 투자손익을 합한 회사 전체 순이익과 구분한다.
+
+<a id="ref4"></a>
+
+4. [KB 직원 AI 에이전트 소개 주소](https://insight.kbinsure.co.kr/20260914-aiagent-employee/). 이전 조사 요약의 업무 적용 설명을 참고했다. 이번 연구의 재조회에서는 점검 안내로 이동하여 기사 본문 재검증에 실패했다. 내부 지침과 운영 성능은 미확인이다.
+
+<a id="ref5"></a>
+
+5. Securitize, [BUIDL 출시 공지](https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx), 2024년 3월 20일 및 [상품 안내](https://securitize.io/blackrock/buidl). 앞선 조사에서 사모 지분, 양도와 환매 설명을 직접 확인했다. 현재 개별 투자자의 계약과 클래스별 조건 전체는 미검토다.
+
+<a id="ref6"></a>
+
+6. BlackRock, [BSTBL 및 BRSRV 발표](https://www.blackrock.com/cash/en-us/press-release-t3), 2026년 8월 3일. 상품과 지분 클래스, 이전대행 및 토큰화 사업자, 준비자산 활용 의도 문단을 직접 확인한 앞선 조사에 근거한다.
+
+<a id="ref7"></a>
+
+7. 미국 [GENIUS Act 제정법](https://www.govinfo.gov/app/details/PLAW-119publ27), [OCC 최종규칙 안내](https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html), [CLARITY 하원 표결](https://clerk.house.gov/Votes/2025199?Title=clarity), [2026년 9월 15일 상원 표결](https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm). 앞선 공식 자료 확인 결과다. 제정, 시행과 절차 표결의 성격을 구분했으며 법률 자문을 제공하지 않는다.
+
+<a id="ref8"></a>
+
+8. [Chubb Studio integration](https://studio.chubb.com/connect/integration), [Progressive Snapshot FAQ](https://www.progressive.com/auto/discounts/snapshot/snapshot-faq/), [Travelers 데이터 및 AI 소개](https://www.travelers.com/about-travelers/technology-analytics/data-driven-and-powered-by-ai). 앞선 조사에서 관련 본문을 직접 확인했다. 회사의 활용 설명을 한국 도입 실적이나 비용 절감 효과로 확장하지 않았다.
+
+<a id="ref9"></a>
+
+9. Munich Re, [Location Risk Intelligence](https://www.munichre.services/en/products/location-risk-intelligence.html). 앞선 조사에서 위치와 기후위험 관련 제품 설명을 직접 확인했다. 이 상품을 본 보고서의 합성 실험이 재현한 것은 아니다.
+
+<a id="ref10"></a>
+
+10. KB금융 배포, [KB GenAI 포털 발표](https://www.newswire.co.kr/newsRead.php?no=1011163), 2025년 5월 15일. 국민은행, [GenAI 2.0 구축 제안요청](https://omoney.kbstar.com/quics?articleId=144593&bbsMode=view&boardId=648&page=C018592), 2026년 5월 18일. 확인 범위는 공동 플랫폼 발표와 구축 제안요청 본문이다. 공동 플랫폼 발표와 후속 구축 요청을 실제 구축 완료로 혼동하지 않았다.
+
+<a id="ref11"></a>
+
+11. KB금융, [국내 네트워크](https://m.kbfg.com/kor/about/network/domestic.htm), 2026년 6월 30일 기준. 확인 범위는 주요 자회사와 지분관계이다. 본문의 기업금융 분업은 이 구조에 기초한 제안이며 실제 공동상품의 확인이 아니다.
+
+<a id="ref12"></a>
+
+12. KB금융, [고객정보 제공 및 이용체계](https://www.kbfg.com/kor/guide/customerinfo.htm), [내부통제 기준](https://m.kbfg.com/kor/about/ethics/internal.htm) 제19~24조. 확인 범위는 고객정보 이용체계와 명시된 내부통제 조항이다. 내부 경영관리 목적과 동의, 권한, 이해상충 및 공동업무 통제를 참고했으며 개별 정보이용의 적법성을 판단하지 않았다.
+
+<a id="ref13"></a>
+
+13. Zurich North America, [Zurich launches first-of-its-kind builders risk data center solution](https://www.zurichna.com/media/news-releases/2025/zurich-launches-first-of-its-kind-builders-risk-data-center-solution), 2025년 12월 10일. 확인 범위는 공식 상품 발표 본문이다. 2026년 1월 1일부터 미국 신규 프로젝트에 제공하는 개별 인수 상품으로 설명되며 미국의 non-admitted 방식에 따른 개별 인수와 국내 허용 여부를 구분한다.
+
+<a id="ref14"></a>
+
+14. Chubb, [Cyber Insurance Products](https://www.chubb.com/us-en/business-insurance/products/cyber-insurance/cyber-insurance-products.html), 게시일 미확인, 확인일 2026년 11월 1일. [2019 표본약관](https://studio.chubb.com/connect/files/NA_CyberSmallBusiness_Sample.pdf) 7, 10, 12, 17쪽의 사고 요건, 대기기간, 자기부담과 면책 조항을 확인했다. 현재 제품 소개와 과거 표본약관은 별도 자료이며 현재 모든 계약조건을 확인한 것이 아니다.
+
+<a id="ref15"></a>
+
+15. Munich Re, [Insure AI, aiSure](https://www.munichre.com/en/solutions/for-industry-clients/insure-ai.html), 게시일 미확인, 확인일 2026년 11월 1일. [2021년 9월 7일 관련 발표](https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2021/media-release-2021-09-07.integratortemplatesecure.html). 확인 범위는 맞춤형 상용 인수 소개와 과거 적용사례의 공식 발표이다. 대상 모델과 국가, 개별 인수조건의 제약이 있으며 보험료와 면책의 세부 조건은 미확인이다.
+
+<a id="ref16"></a>
+
+16. KB손해보험 제공, [한국무역보험공사와 해외 진출 우리 기업 지원 위한 업무협약](https://www.newswire.co.kr/newsRead.php?no=1011491), 2025년 5월 20일. 확인 범위는 중국법인의 매출채권 미회수 위험 보험과 한국무역보험공사의 재보험 지원에 관한 발표 본문이다. 실제 규모, 개별 조건과 회수시점, 온체인 도입은 미확인이다.
